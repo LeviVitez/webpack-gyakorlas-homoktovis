@@ -2,8 +2,8 @@
 
 ## Telepítés
 
-* Klónozás után futtasd le az "npm install" utasítást.
-* Fordításhoz használd az "npx webpack watch" utasítást.
+* Klónozás után futtasd le az "npm install" utasítást. -
+* Fordításhoz használd az "npx webpack watch" utasítást. -
 
 ## Feladat
 
