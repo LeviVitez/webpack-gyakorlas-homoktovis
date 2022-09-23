@@ -1,11 +1,19 @@
 import 'bootstrap/dist/js/bootstrap.bundle.js'
 import 'bootstrap/dist/css/bootstrap.css'
 
+import './main.css'
 
+console.log("Loaded");
 document.addEventListener('DOMContentLoaded', init);
 
-let kepek = [0, 0, 0, 0, 0]
 
+function colorPic(){
+    let color = document.getElementById('color-pic').value;
+    document.getElementById('focim').style.backgroundColor= color;
+
+}
+
+let kepek = [0, 0, 0, 0, 0]
 
 function kepKatt(e){
     switch(e.target.id) {
@@ -33,13 +41,6 @@ function kepKatt(e){
 
     }
 }
-
-function colorPic(){
-    let color = document.getElementById('color-pic').value;
-    document.getElementById('focim').style.backgroundColor = color;
-
-}
-
 
 function init() {
     let kepek = document.getElementsByClassName('kattKep');
